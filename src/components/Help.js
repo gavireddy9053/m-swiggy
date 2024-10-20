@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { Counter } from './Counter'
 function Help() {
   return (
-    <div>Help</div>
+    <div>
+       <Counter />
+    </div>
   )
 }
 
